@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: grid;
+    place-items: center; /* Shortcut for setting both align-items and justify-items to center */
+    height: 40vh;
+}
+h1 {
+    color: #5a5a5a;
+}
+form, button {
+    margin-top: 20px;
+}
+input[type="email"], button {
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}

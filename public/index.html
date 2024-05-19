@@ -1,0 +1,21 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Welcome</h1>
+    <p>Subscribe to receive daily updates directly to your email, ensuring you never miss out on important rate changes.</p>
+    <button id="currentRate">Get Current Rate</button>
+    <script src="/js/script.js" type="module"></script>
+    <form id="subscriptionForm" onsubmit="subscribeEmail(event)">
+        <input type="email" id="email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</body>
+</html>
+
+
